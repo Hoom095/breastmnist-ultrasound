@@ -1,0 +1,10 @@
+Split,Model,ROC AUC,Average precision,Accuracy,Balanced accuracy,Malignant sensitivity,Specificity
+validation,Majority class,0.500000,0.269231,0.730769,0.500000,0.000000,1.000000
+validation,Logistic regression,0.843776,0.788415,0.833333,0.720551,0.476190,0.964912
+validation,Small CNN,0.795322,0.711853,0.820513,0.666667,0.333333,1.000000
+test,Majority class,0.500000,0.269231,0.730769,0.500000,0.000000,1.000000
+test,Logistic regression,0.824353,0.640525,0.794872,0.679198,0.428571,0.929825
+test,Small CNN,0.799081,0.659635,0.769231,0.586466,0.190476,0.982456
+test_without_exact_matches,Majority class,0.500000,0.270968,0.729032,0.500000,0.000000,1.000000
+test_without_exact_matches,Logistic regression,0.829119,0.652653,0.800000,0.683312,0.428571,0.938053
+test_without_exact_matches,Small CNN,0.804888,0.683463,0.774194,0.590813,0.190476,0.991150
